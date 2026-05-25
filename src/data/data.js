@@ -11,7 +11,7 @@ const PROJECTS = [
     title: "IC — Intelligent Clipboard",
     description: "Aplicación ligera de escritorio para PyQt6 que corre en segundo plano y automatiza el flujo de trabajo del portapapeles mediante Inteligencia Artificial (API OpenAI/Google), cifrando de forma local las credenciales mediante un cifrado XOR por semilla.",
     tags: ["Python", "PyQt6", "AI API", "Security"],
-    link: "https://github.com/davidleonstr"
+    link: "https://github.com/davidleonstr/intelligent-clipboard"
   },
   {
     title: "QFlow",
@@ -47,7 +47,7 @@ const PROJECTS = [
     title: "DirScanner",
     description: "Utilidad de línea de comandos en Python que escanea directorios recursivamente, filtra mediante patrones glob avanzados de estilo .gitignore y unifica los contenidos textuales en un JSON estructurado para auditorías o contextos de IA.",
     tags: ["Python", "CLI", "Automation", "JSON Processing"],
-    link: "https://github.com/davidleonstr"
+    link: "https://github.com/davidleonstr/dirscanner"
   }
 ];
 
