@@ -1,0 +1,85 @@
+{
+  "mobile-message": "You will have a better experience on the desktop web version.",
+  "profile": {
+    "great": "Hello, I'm",
+    "name": "David León",
+    "role": "Computer Systems Engineering Student & Software Development Technician.",
+    "bio": "I love understanding how things actually work and questioning the \"why\" behind systems to build clean, efficient, and purposeful solutions. Working autonomously, practically, and adaptably, I always strive to balance functionality, design, and scalability while exploring new ways to build more useful, dynamic, and human-centric software.",
+    "email": "davidalfonsoleoncarmona@gmail.com",
+    "github": "https://github.com/davidleonstr"
+  },
+  "skills": [
+    {
+      "category": "Frontend Development",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "TailwindCSS",
+        "TypeScript"
+      ]
+    },
+    {
+      "category": "Backend Development",
+      "items": [
+        "Python",
+        "Node.js",
+        "PHP",
+        "Java"
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL"
+      ]
+    },
+    {
+      "category": "Tools & Environment",
+      "items": [
+        "Git",
+        "Figma",
+        "Postman",
+        "Linux",
+        "VS Code"
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Contact",
+    "heading": "Have a project in mind or any questions?",
+    "description": "I'm always open to discussing new ideas, collaborating on open-source or private projects, or simply chatting about software development.",
+    "send-directly": "Send Directly",
+    "copy-email": "Copy",
+    "copied-email": "Copied"
+  },
+  "footer": {
+    "tag-line": "Less is more."
+  },
+  "skills-title": "Skills & Technologies",
+  "nav-links": [
+    {
+      "href": "#home",
+      "label": "Home"
+    },
+    {
+      "href": "#skills",
+      "label": "Skills"
+    },
+    {
+      "href": "#contact",
+      "label": "Contact"
+    },
+    {
+      "href": "/projects",
+      "label": "Projects"
+    },
+    {
+      "href": "/shop",
+      "label": "Shop"
+    }
+  ]
+}

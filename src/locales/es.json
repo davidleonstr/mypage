@@ -1,0 +1,85 @@
+{
+	"mobile-message": "Tendrás una mejor experiencia en la versión web de escritorio.",
+  "profile": {
+		"great": "Hola, soy",
+    "name": "David León",
+    "role": "Estudiante de Ingeniería en Sistemas Informáticos y Técnico en Desarrollo de Software.",
+    "bio": "Me gusta entender cómo funcionan realmente las cosas y cuestionar el \"por qué\" detrás de los sistemas para crear soluciones limpias, eficientes y con propósito, trabajando de forma autónoma, práctica y adaptable, siempre buscando equilibrar funcionalidad, diseño y escalabilidad mientras exploro nuevas formas de construir software más útil, dinámico y humano.",
+    "email": "davidalfonsoleoncarmona@gmail.com",
+    "github": "https://github.com/davidleonstr"
+  },
+  "skills": [
+    {
+      "category": "Desarrollo Frontend",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "TailwindCSS",
+        "TypeScript"
+      ]
+    },
+    {
+      "category": "Desarrollo Backend",
+      "items": [
+        "Python",
+        "Node.js",
+        "PHP",
+        "Java"
+      ]
+    },
+    {
+      "category": "Bases de Datos",
+      "items": [
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL"
+      ]
+    },
+    {
+      "category": "Herramientas y Entorno",
+      "items": [
+        "Git",
+        "Figma",
+        "Postman",
+        "Linux",
+        "VS Code"
+      ]
+    }
+  ],
+	"contact": {
+		"title": "Contacto",
+		"heading": "¿Tienes un proyecto en mente o alguna consulta?",
+		"description": "Siempre estoy abierto a discutir nuevas ideas, colaborar en proyectos de código abierto o proyectos privados, o simplemente charlar sobre desarrollo de software.",
+		"send-directly": "Enviar directo",
+		"copy-email": "Copiar",
+		"copied-email": "Copiado"
+	},
+	"footer": {
+		"tag-line": "Menos es más."
+	},
+	"skills-title": "Habilidades y Tecnologías",
+  "nav-links": [
+    {
+      "href": "#home",
+      "label": "Inicio"
+    },
+    {
+      "href": "#skills",
+      "label": "Habilidades"
+    },
+    {
+      "href": "#contact",
+      "label": "Contacto"
+    },
+    {
+      "href": "/projects",
+      "label": "Proyectos"
+    },
+    {
+      "href": "/shop",
+      "label": "Tienda"
+    }
+  ]
+}
