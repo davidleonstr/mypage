@@ -17,7 +17,8 @@
         "JavaScript",
         "React",
         "TailwindCSS",
-        "TypeScript"
+        "TypeScript",
+        "Astro"
       ]
     },
     {
@@ -38,13 +39,19 @@
       ]
     },
     {
-      "category": "الأدوات وبيئة العمل",
+      "category": "الأدوات",
       "items": [
         "Git",
         "Figma",
         "Postman",
-        "Linux",
         "VS Code"
+      ]
+    },
+    {
+      "category": "بيئة العمل",
+      "items": [
+        "Linux",
+        "Windows"
       ]
     }
   ],

@@ -17,7 +17,8 @@
         "JavaScript",
         "React",
         "TailwindCSS",
-        "TypeScript"
+        "TypeScript",
+        "Astro"
       ]
     },
     {
@@ -38,13 +39,19 @@
       ]
     },
     {
-      "category": "Herramientas y Entorno",
+      "category": "Herramientas",
       "items": [
         "Git",
         "Figma",
         "Postman",
-        "Linux",
         "VS Code"
+      ]
+    },
+    {
+      "category": "Entorno",
+      "items": [
+        "Linux",
+        "Windows"
       ]
     }
   ],
