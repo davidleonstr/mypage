@@ -155,12 +155,12 @@
       "label": "الرئيسية"
     },
     {
-      "href": "#skills",
-      "label": "المهارات"
-    },
-    {
       "href": "#projects",
       "label": "المشاريع"
+    },
+    {
+      "href": "#skills",
+      "label": "المهارات"
     },
     {
       "href": "#contact",

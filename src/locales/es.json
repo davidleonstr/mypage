@@ -155,12 +155,12 @@
       "label": "Inicio"
     },
     {
-      "href": "#skills",
-      "label": "Habilidades"
-    },
-    {
       "href": "#projects",
       "label": "Proyectos"
+    },
+    {
+      "href": "#skills",
+      "label": "Habilidades"
     },
     {
       "href": "#contact",
