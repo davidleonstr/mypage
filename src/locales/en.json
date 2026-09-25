@@ -1,5 +1,4 @@
 {
-  "mobile-message": "You will have a better experience on the desktop web version.",
   "profile": {
     "great": "Hello, I'm",
     "name": "David León",
@@ -55,6 +54,89 @@
       ]
     }
   ],
+  "projects": {
+    "title": "Projects",
+    "cta": "If you want a project like this, send me an email explaining your idea.",
+    "items": [
+      {
+        "name": "OSINT Finder",
+        "description": "An OSINT tool to investigate usernames and emails across the web."
+      },
+      {
+        "name": "MyWall",
+        "description": "A wall where people can leave you notes and messages."
+      },
+      {
+        "name": "Meriyo Tours Dublin",
+        "description": "A tourism website built as a freelance project."
+      }
+    ]
+  },
+  "shop": {
+    "title": "Shop",
+    "subtitle": "Services I offer. Prices are a starting reference — final cost depends on scope, timeline, and features.",
+    "items": [
+      {
+        "name": "Landing Page / Portfolio",
+        "description": "A fast, responsive one-page site built with React and TailwindCSS. Great for personal brands, small businesses, or product launches.",
+        "price": "$125",
+        "note": "Starting price"
+      },
+      {
+        "name": "Full-Stack Web App",
+        "description": "A complete application with a React frontend, a Node.js or Python backend, and a database (PostgreSQL or MongoDB), including basic auth and deployment.",
+        "price": "$300",
+        "note": "Starting price"
+      },
+      {
+        "name": "REST API Development",
+        "description": "A clean, documented REST API built with Node.js or Python, connected to the database of your choice.",
+        "price": "$130",
+        "note": "Starting price"
+      },
+      {
+        "name": "Database Design & Setup",
+        "description": "Schema design, relationships, indexing, and setup for PostgreSQL, MySQL, or MongoDB, tailored to your app's needs.",
+        "price": "$90",
+        "note": "Starting price"
+      },
+      {
+        "name": "Website Redesign",
+        "description": "Modernize an existing site's UI, performance, and responsiveness without rebuilding it from scratch.",
+        "price": "$180",
+        "note": "Starting price"
+      },
+      {
+        "name": "Custom Tool / Automation",
+        "description": "A purpose-built tool for a specific task — data scraping, lookup tools, data processing, or workflow automation.",
+        "price": "$200",
+        "note": "Starting price"
+      },
+      {
+        "name": "Bug Fixing & Code Review",
+        "description": "Diagnosing issues, improving code quality, or reviewing an existing codebase before you ship.",
+        "price": "$20",
+        "note": "Per hour"
+      }
+    ],
+    "cta": "Have something different in mind? Send me an email and let's talk about it.",
+    "back-home": "Back to home",
+    "request-gmail": "Gmail",
+    "request-copy": "Copy message",
+    "request-copied": "Copied!",
+    "request-default-client": "Or open with my default mail app",
+    "copy-to-label": "To",
+    "copy-subject-label": "Subject",
+    "email-subject": "Service request: {{service}}",
+    "email-body": "Hi David,\n\nI'm interested in the \"{{service}}\" service:\n{{description}}\n\nHere's a bit more about what I need:\n\n"
+  },
+  "not-found": {
+    "code": "404",
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist, was moved, or the link is broken.",
+    "back-home": "Back to home",
+    "contact": "Contact me"
+  },
   "contact": {
     "title": "Contact",
     "heading": "Have a project in mind or any questions?",
@@ -77,12 +159,12 @@
       "label": "Skills"
     },
     {
-      "href": "#contact",
-      "label": "Contact"
+      "href": "#projects",
+      "label": "Projects"
     },
     {
-      "href": "/projects",
-      "label": "Projects"
+      "href": "#contact",
+      "label": "Contact"
     },
     {
       "href": "/shop",

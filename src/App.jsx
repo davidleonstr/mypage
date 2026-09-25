@@ -5,6 +5,8 @@ import './custom.css';
 import Lenis from '@studio-freight/lenis';
 
 import Home from './views/Home';
+import Shop from './views/Shop';
+import NotFound from './views/NotFound';
 
 export default function App() {
   useEffect(() => {
@@ -31,6 +33,9 @@ export default function App() {
         <Route path='/' element={<Home />} />
         <Route path='/:language' element={<Home />} />
         <Route path='/:language/home' element={<Home />} />
+        <Route path='/shop' element={<Shop />} />
+        <Route path='/:language/shop' element={<Shop />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
   );
 }

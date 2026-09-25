@@ -1,7 +1,6 @@
 {
-	"mobile-message": "Tendrás una mejor experiencia en la versión web de escritorio.",
   "profile": {
-		"great": "Hola, soy",
+    "great": "Hola, soy",
     "name": "David León",
     "role": "Estudiante de Ingeniería en Sistemas Informáticos y Técnico en Desarrollo de Software.",
     "bio": "Me gusta entender cómo funcionan realmente las cosas y cuestionar el \"por qué\" detrás de los sistemas para crear soluciones limpias, eficientes y con propósito, trabajando de forma autónoma, práctica y adaptable, siempre buscando equilibrar funcionalidad, diseño y escalabilidad mientras exploro nuevas formas de construir software más útil, dinámico y humano.",
@@ -55,18 +54,101 @@
       ]
     }
   ],
-	"contact": {
-		"title": "Contacto",
-		"heading": "¿Tienes un proyecto en mente o alguna consulta?",
-		"description": "Siempre estoy abierto a discutir nuevas ideas, colaborar en proyectos de código abierto o proyectos privados, o simplemente charlar sobre desarrollo de software.",
-		"send-directly": "Enviar directo",
-		"copy-email": "Copiar",
-		"copied-email": "Copiado"
-	},
-	"footer": {
-		"tag-line": "Menos es más."
-	},
-	"skills-title": "Habilidades y Tecnologías",
+  "projects": {
+    "title": "Proyectos",
+    "cta": "Si quieres un proyecto como este, envíame un correo explicando tu idea.",
+    "items": [
+      {
+        "name": "OSINT Finder",
+        "description": "Una herramienta OSINT para investigar nombres de usuario y correos electrónicos en la web."
+      },
+      {
+        "name": "MyWall",
+        "description": "Un muro donde las personas pueden dejarte notas y mensajes."
+      },
+      {
+        "name": "Meriyo Tours Dublin",
+        "description": "Un sitio web de turismo desarrollado como proyecto freelance."
+      }
+    ]
+  },
+  "shop": {
+    "title": "Tienda",
+    "subtitle": "Servicios que ofrezco. Los precios son una referencia inicial — el costo final depende del alcance, los tiempos y las funcionalidades.",
+    "items": [
+      {
+        "name": "Landing Page / Portafolio",
+        "description": "Un sitio de una página, rápido y responsivo, hecho con React y TailwindCSS. Ideal para marcas personales, pequeños negocios o lanzamientos de productos.",
+        "price": "$125",
+        "note": "Precio inicial"
+      },
+      {
+        "name": "Aplicación Web Full-Stack",
+        "description": "Una aplicación completa con frontend en React, backend en Node.js o Python, y base de datos (PostgreSQL o MongoDB), incluyendo autenticación básica y despliegue.",
+        "price": "$300",
+        "note": "Precio inicial"
+      },
+      {
+        "name": "Desarrollo de API REST",
+        "description": "Una API REST limpia y documentada, construida con Node.js o Python, conectada a la base de datos que prefieras.",
+        "price": "$130",
+        "note": "Precio inicial"
+      },
+      {
+        "name": "Diseño y Configuración de Base de Datos",
+        "description": "Diseño de esquemas, relaciones, indexado y configuración para PostgreSQL, MySQL o MongoDB, adaptado a las necesidades de tu app.",
+        "price": "$90",
+        "note": "Precio inicial"
+      },
+      {
+        "name": "Rediseño de Sitio Web",
+        "description": "Moderniza la interfaz, el rendimiento y la responsividad de un sitio existente sin reconstruirlo desde cero.",
+        "price": "$180",
+        "note": "Precio inicial"
+      },
+      {
+        "name": "Herramienta Personalizada / Automatización",
+        "description": "Una herramienta hecha a medida para una tarea específica — scraping de datos, herramientas de búsqueda, procesamiento de datos o automatización de flujos de trabajo.",
+        "price": "$200",
+        "note": "Precio inicial"
+      },
+      {
+        "name": "Corrección de Errores y Revisión de Código",
+        "description": "Diagnóstico de problemas, mejora de calidad de código, o revisión de un proyecto existente antes de lanzarlo.",
+        "price": "$20",
+        "note": "Por hora"
+      }
+    ],
+    "cta": "¿Tienes algo diferente en mente? Envíame un correo y hablemos de tu idea.",
+    "back-home": "Volver al inicio",
+    "request-gmail": "Gmail",
+    "request-copy": "Copiar mensaje",
+    "request-copied": "¡Copiado!",
+    "request-default-client": "O abrir con mi cliente de correo predeterminado",
+    "copy-to-label": "Para",
+    "copy-subject-label": "Asunto",
+    "email-subject": "Solicitud de servicio: {{service}}",
+    "email-body": "Hola David,\n\nMe interesa el servicio \"{{service}}\":\n{{description}}\n\nEsto es lo que necesito con más detalle:\n\n"
+  },
+  "not-found": {
+    "code": "404",
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe, fue movida, o el enlace está roto.",
+    "back-home": "Volver al inicio",
+    "contact": "Contáctame"
+  },
+  "contact": {
+    "title": "Contacto",
+    "heading": "¿Tienes un proyecto en mente o alguna consulta?",
+    "description": "Siempre estoy abierto a discutir nuevas ideas, colaborar en proyectos de código abierto o proyectos privados, o simplemente charlar sobre desarrollo de software.",
+    "send-directly": "Enviar directo",
+    "copy-email": "Copiar",
+    "copied-email": "Copiado"
+  },
+  "footer": {
+    "tag-line": "Menos es más."
+  },
+  "skills-title": "Habilidades y Tecnologías",
   "nav-links": [
     {
       "href": "#home",
@@ -77,12 +159,12 @@
       "label": "Habilidades"
     },
     {
-      "href": "#contact",
-      "label": "Contacto"
+      "href": "#projects",
+      "label": "Proyectos"
     },
     {
-      "href": "/projects",
-      "label": "Proyectos"
+      "href": "#contact",
+      "label": "Contacto"
     },
     {
       "href": "/shop",
