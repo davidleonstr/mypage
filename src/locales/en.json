@@ -59,11 +59,11 @@
     "cta": "If you want a project like this, send me an email explaining your idea.",
     "items": [
       {
-        "name": "OSINT Finder",
+        "name": "OSINT console",
         "description": "An OSINT tool to investigate usernames and emails across the web."
       },
       {
-        "name": "MyWall",
+        "name": "My wall",
         "description": "A wall where people can leave you notes and messages."
       },
       {
