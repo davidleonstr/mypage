@@ -56,17 +56,26 @@
   ],
   "projects": {
     "title": "Proyectos",
-    "cta": "Si quieres un proyecto como este, envíame un correo explicando tu idea.",
+    "description": "Proyectos personales que he construido para explorar ideas propias.",
     "items": [
       {
+        "slug": "osint-console",
         "name": "OSINT console",
         "description": "Una herramienta OSINT para investigar nombres de usuario y correos electrónicos en la web."
       },
       {
+        "slug": "my-wall",
         "name": "My wall",
         "description": "Un muro donde las personas pueden dejarte notas y mensajes."
-      },
+      }
+    ]
+  },
+  "works": {
+    "title": "Trabajos",
+    "description": "Trabajos freelance realizados para clientes.",
+    "items": [
       {
+        "slug": "meriyo-tours-dublin",
         "name": "Meriyo Tours Dublin",
         "description": "Un sitio web de turismo desarrollado como proyecto freelance."
       }
@@ -157,6 +166,10 @@
     {
       "href": "#projects",
       "label": "Proyectos"
+    },
+    {
+      "href": "#works",
+      "label": "Trabajos"
     },
     {
       "href": "#skills",

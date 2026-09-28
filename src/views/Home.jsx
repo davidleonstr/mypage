@@ -11,11 +11,14 @@ import Footer from '@/components/Footer';
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 
-const PROJECT_URLS = [
-  'https://osint.davidleon.xyz/',
-  'https://mywall.davidleon.xyz/davidleonstr',
-  'https://www.meriyotoursdublin.com/',
-];
+const PROJECT_URLS = {
+  'osint-console': 'https://osint.davidleon.xyz/',
+  'my-wall': 'https://mywall.davidleon.xyz/davidleonstr',
+};
+
+const WORK_URLS = {
+  'meriyo-tours-dublin': 'https://www.meriyotoursdublin.com/',
+};
 
 export default function Home() {
   const { language } = useParams();
@@ -28,10 +31,16 @@ export default function Home() {
   const navLinks = t('nav-links', { returnObjects: true });
   const skillsData = t('skills', { returnObjects: true });
   const projectsData = t('projects.items', { returnObjects: true });
+  const worksData = t('works.items', { returnObjects: true });
 
-  const projects = projectsData.map((project, index) => ({
+  const projects = projectsData.map((project) => ({
     ...project,
-    url: PROJECT_URLS[index],
+    url: PROJECT_URLS[project.slug],
+  }));
+
+  const works = worksData.map((work) => ({
+    ...work,
+    url: WORK_URLS[work.slug],
   }));
 
   return (
@@ -55,9 +64,19 @@ export default function Home() {
         <hr className="border-zinc-700" id='apps' />
 
         <Projects
+          id="projects"
           title={t('projects.title')}
+          description={t('projects.description')}
           projects={projects}
-          ctaText={t('projects.cta')}
+        />
+
+        <hr className="border-zinc-700" />
+
+        <Projects
+          id="works"
+          title={t('works.title')}
+          description={t('works.description')}
+          projects={works}
         />
 
         <hr className="border-zinc-700" />

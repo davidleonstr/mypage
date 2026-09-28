@@ -56,17 +56,26 @@
   ],
   "projects": {
     "title": "مشاريع",
-    "cta": "إذا كنت تريد مشروعًا مشابهًا لهذا، أرسل لي بريدًا إلكترونيًا توضح فيه فكرتك.",
+    "description": "مشاريع شخصية قمت ببنائها لاستكشاف أفكاري الخاصة.",
     "items": [
       {
+        "slug": "osint-console",
         "name": "OSINT console",
         "description": "أداة OSINT للتحقيق في أسماء المستخدمين والبريد الإلكتروني عبر الويب."
       },
       {
+        "slug": "my-wall",
         "name": "My wall",
         "description": "حائط يمكن للأشخاص ترك ملاحظات ورسائل لك عليه."
-      },
+      }
+    ]
+  },
+  "works": {
+    "title": "أعمال",
+    "description": "أعمال حرة نفذتها لعملاء.",
+    "items": [
       {
+        "slug": "meriyo-tours-dublin",
         "name": "Meriyo Tours Dublin",
         "description": "موقع سياحي تم تطويره كمشروع عمل حر."
       }
@@ -157,6 +166,10 @@
     {
       "href": "#projects",
       "label": "المشاريع"
+    },
+    {
+      "href": "#works",
+      "label": "أعمال"
     },
     {
       "href": "#skills",

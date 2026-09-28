@@ -1,14 +1,19 @@
-export default function Projects({ title, projects = [], ctaText }) {
+export default function Projects({ title, description, projects = [], id = "projects" }) {
   return (
-    <section id="projects" className="space-y-10 scroll-mt-20">
-      <h2 className="text-xs font-bold uppercase tracking-widest text-zinc-500">
-        {title}
-      </h2>
+    <section id={id} className="space-y-8 scroll-mt-20">
+      <div className="space-y-2">
+        <h2 className="text-xs font-bold uppercase tracking-widest text-zinc-500">
+          {title}
+        </h2>
+        {description && (
+          <p className="text-sm text-zinc-400 max-w-md">{description}</p>
+        )}
+      </div>
 
       <div className="grid gap-6 sm:grid-cols-2">
         {projects.map((project, index) => (
           <a
-            key={index}
+            key={project.slug ?? index}
             href={project.url}
             target="_blank"
             rel="noreferrer"
@@ -36,10 +41,6 @@ export default function Projects({ title, projects = [], ctaText }) {
           </a>
         ))}
       </div>
-
-      <p className="text-sm text-zinc-400 italic pt-2 max-w-xl">
-        {ctaText}
-      </p>
     </section>
   );
 }
