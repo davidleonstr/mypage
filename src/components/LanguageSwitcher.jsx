@@ -7,25 +7,29 @@ const LANGUAGES = [
   { code: 'ar', label: 'AR' },
 ];
 
+const baseCode = (code) => (code ? code.split('-')[0].toLowerCase() : '');
+
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
 
+  const currentBase = baseCode(i18n.language);
+
   const activeIndex = Math.max(
     0,
-    LANGUAGES.findIndex((l) => l.code === i18n.language)
+    LANGUAGES.findIndex((l) => l.code === currentBase)
   );
 
   const handleChange = (langCode) => {
-    if (langCode === i18n.language) return;
+    if (langCode === currentBase) return;
 
     i18n.changeLanguage(langCode);
 
     const knownCodes = LANGUAGES.map((l) => l.code);
     const segments = location.pathname.split('/').filter(Boolean);
 
-    if (segments.length > 0 && knownCodes.includes(segments[0])) {
+    if (segments.length > 0 && knownCodes.includes(baseCode(segments[0]))) {
       segments[0] = langCode;
     } else {
       segments.unshift(langCode);
@@ -53,10 +57,10 @@ export default function LanguageSwitcher() {
           key={lang.code}
           type="button"
           role="tab"
-          aria-selected={i18n.language === lang.code}
+          aria-selected={currentBase === lang.code}
           onClick={() => handleChange(lang.code)}
           className={`relative z-10 w-9 py-1 text-xs font-medium rounded-full transition-colors duration-300 ${
-            i18n.language === lang.code
+            currentBase === lang.code
               ? 'text-[#111111]'
               : 'text-zinc-400 hover:text-zinc-200'
           }`}
