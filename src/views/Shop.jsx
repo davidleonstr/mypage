@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useParams, Link } from 'react-router-dom';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Footer from '@/components/Footer';
+import { buildGmailUrl } from '@/utils/gmail';
 
 export default function Shop() {
   const { language } = useParams();
@@ -23,17 +24,12 @@ export default function Shop() {
       description: item.description,
     });
 
-  const buildMailto = (item) =>
-    `mailto:${email}?subject=${encodeURIComponent(
-      buildSubject(item)
-    )}&body=${encodeURIComponent(buildBody(item))}`;
-
   const buildGmailWeb = (item) =>
-    `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
-      email
-    )}&su=${encodeURIComponent(buildSubject(item))}&body=${encodeURIComponent(
-      buildBody(item)
-    )}`;
+    buildGmailUrl({
+      to: email,
+      subject: buildSubject(item),
+      body: buildBody(item),
+    });
 
   const handleCopy = async (item, index) => {
     const text = `${t('shop.copy-to-label')}: ${email}\n${t(
@@ -125,13 +121,6 @@ export default function Shop() {
                       : t('shop.request-copy')}
                   </button>
                 </div>
-
-                <a
-                  href={buildMailto(item)}
-                  className="block text-center text-xs text-zinc-500 hover:text-zinc-300 transition-colors"
-                >
-                  {t('shop.request-default-client')}
-                </a>
               </div>
             </div>
           ))}
@@ -142,7 +131,9 @@ export default function Shop() {
             {t('shop.cta')}
           </p>
           <a
-            href={`mailto:${email}`}
+            href={buildGmailUrl({ to: email })}
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center justify-center text-sm font-medium h-10 px-4 rounded-lg bg-[#f0f0f0] text-[#111111] hover:bg-zinc-200 transition-colors active:scale-95 duration-150"
           >
             {t('contact.send-directly')}

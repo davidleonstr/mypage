@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Link, useParams } from 'react-router-dom';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Footer from '@/components/Footer';
+import { buildGmailUrl } from '@/utils/gmail';
 
 export default function NotFound() {
   const { language } = useParams();
@@ -51,7 +52,9 @@ export default function NotFound() {
               {t('not-found.back-home')}
             </Link>
             <a
-              href={`mailto:${t('profile.email')}`}
+              href={buildGmailUrl({ to: t('profile.email') })}
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center justify-center text-sm font-medium h-10 px-4 rounded-lg border border-zinc-700 text-[#f0f0f0] hover:bg-zinc-800 transition-colors"
             >
               {t('not-found.contact')}

@@ -10,48 +10,23 @@
   "skills": [
     {
       "category": "Frontend Development",
-      "items": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React",
-        "TailwindCSS",
-        "TypeScript",
-        "Astro"
-      ]
+      "items": ["HTML5", "CSS3", "JavaScript", "React", "TailwindCSS", "TypeScript", "Astro"]
     },
     {
       "category": "Backend Development",
-      "items": [
-        "Python",
-        "Node.js",
-        "PHP",
-        "Java"
-      ]
+      "items": ["Python", "Node.js", "PHP", "Java"]
     },
     {
       "category": "Databases",
-      "items": [
-        "MongoDB",
-        "PostgreSQL",
-        "MySQL"
-      ]
+      "items": ["MongoDB", "PostgreSQL", "MySQL"]
     },
     {
       "category": "Tools",
-      "items": [
-        "Git",
-        "Figma",
-        "Postman",
-        "VS Code"
-      ]
+      "items": ["Git", "Figma", "Postman", "VS Code"]
     },
     {
       "category": "Environment",
-      "items": [
-        "Linux",
-        "Windows"
-      ]
+      "items": ["Linux", "Windows"]
     }
   ],
   "projects": {
@@ -78,6 +53,11 @@
         "slug": "meriyo-tours-dublin",
         "name": "Meriyo Tours Dublin",
         "description": "A tourism website built as a freelance project."
+      },
+      {
+        "slug": "pretty-store-sv",
+        "name": "Pretty Store SV",
+        "description": "A product reservation website featuring automated inventory management, internal product management, and a comprehensive admin dashboard."
       }
     ]
   },
@@ -133,11 +113,18 @@
     "request-gmail": "Gmail",
     "request-copy": "Copy message",
     "request-copied": "Copied!",
-    "request-default-client": "Or open with my default mail app",
     "copy-to-label": "To",
     "copy-subject-label": "Subject",
     "email-subject": "Service request: {{service}}",
     "email-body": "Hi David,\n\nI'm interested in the \"{{service}}\" service:\n{{description}}\n\nHere's a bit more about what I need:\n\n"
+  },
+  "cta-banner": {
+    "title": "Liked these projects and want one of your own?",
+    "description": "Tell me your idea and let's turn it into a real project. Write to me on Gmail or check out the services I offer.",
+    "button": "I want my project",
+    "shop": "See services",
+    "email-subject": "I'd like a project like the ones in your portfolio",
+    "email-body": "Hi David,\n\nI saw your projects and I'd like to have one of my own.\n\nHere's what I have in mind:\n\n"
   },
   "not-found": {
     "code": "404",
@@ -150,7 +137,7 @@
     "title": "Contact",
     "heading": "Have a project in mind or any questions?",
     "description": "I'm always open to discussing new ideas, collaborating on open-source or private projects, or simply chatting about software development.",
-    "send-directly": "Send Directly",
+    "send-directly": "Send via Gmail",
     "copy-email": "Copy",
     "copied-email": "Copied"
   },
@@ -159,29 +146,11 @@
   },
   "skills-title": "Skills & Technologies",
   "nav-links": [
-    {
-      "href": "#home",
-      "label": "Home"
-    },
-    {
-      "href": "#projects",
-      "label": "Projects"
-    },
-    {
-      "href": "#works",
-      "label": "Works"
-    },
-    {
-      "href": "#skills",
-      "label": "Skills"
-    },
-    {
-      "href": "#contact",
-      "label": "Contact"
-    },
-    {
-      "href": "/shop",
-      "label": "Shop"
-    }
+    { "href": "#home", "label": "Home" },
+    { "href": "#projects", "label": "Projects" },
+    { "href": "#works", "label": "Works" },
+    { "href": "#skills", "label": "Skills" },
+    { "href": "#contact", "label": "Contact" },
+    { "href": "/shop", "label": "Shop" }
   ]
 }

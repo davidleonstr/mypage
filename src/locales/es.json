@@ -10,48 +10,23 @@
   "skills": [
     {
       "category": "Desarrollo Frontend",
-      "items": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React",
-        "TailwindCSS",
-        "TypeScript",
-        "Astro"
-      ]
+      "items": ["HTML5", "CSS3", "JavaScript", "React", "TailwindCSS", "TypeScript", "Astro"]
     },
     {
       "category": "Desarrollo Backend",
-      "items": [
-        "Python",
-        "Node.js",
-        "PHP",
-        "Java"
-      ]
+      "items": ["Python", "Node.js", "PHP", "Java"]
     },
     {
       "category": "Bases de Datos",
-      "items": [
-        "MongoDB",
-        "PostgreSQL",
-        "MySQL"
-      ]
+      "items": ["MongoDB", "PostgreSQL", "MySQL"]
     },
     {
       "category": "Herramientas",
-      "items": [
-        "Git",
-        "Figma",
-        "Postman",
-        "VS Code"
-      ]
+      "items": ["Git", "Figma", "Postman", "VS Code"]
     },
     {
       "category": "Entorno",
-      "items": [
-        "Linux",
-        "Windows"
-      ]
+      "items": ["Linux", "Windows"]
     }
   ],
   "projects": {
@@ -78,6 +53,11 @@
         "slug": "meriyo-tours-dublin",
         "name": "Meriyo Tours Dublin",
         "description": "Un sitio web de turismo desarrollado como proyecto freelance."
+      },
+      {
+        "slug": "pretty-store-sv",
+        "name": "Pretty Store SV",
+        "description": "Un sitio web de reserva de productos que cuenta con gestión automatizada de inventario, gestión interna de productos, y panel de administración completo."
       }
     ]
   },
@@ -133,11 +113,18 @@
     "request-gmail": "Gmail",
     "request-copy": "Copiar mensaje",
     "request-copied": "¡Copiado!",
-    "request-default-client": "O abrir con mi cliente de correo predeterminado",
     "copy-to-label": "Para",
     "copy-subject-label": "Asunto",
     "email-subject": "Solicitud de servicio: {{service}}",
     "email-body": "Hola David,\n\nMe interesa el servicio \"{{service}}\":\n{{description}}\n\nEsto es lo que necesito con más detalle:\n\n"
+  },
+  "cta-banner": {
+    "title": "¿Te interesaron estos proyectos y quieres el tuyo?",
+    "description": "Cuéntame tu idea y la convertimos en un proyecto real. Escríbeme por Gmail o revisa los servicios que ofrezco.",
+    "button": "Quiero mi proyecto",
+    "shop": "Ver servicios",
+    "email-subject": "Quiero un proyecto como los de tu portafolio",
+    "email-body": "Hola David,\n\nVi tus proyectos y me gustaría tener uno propio.\n\nEsto es lo que tengo en mente:\n\n"
   },
   "not-found": {
     "code": "404",
@@ -150,7 +137,7 @@
     "title": "Contacto",
     "heading": "¿Tienes un proyecto en mente o alguna consulta?",
     "description": "Siempre estoy abierto a discutir nuevas ideas, colaborar en proyectos de código abierto o proyectos privados, o simplemente charlar sobre desarrollo de software.",
-    "send-directly": "Enviar directo",
+    "send-directly": "Enviar por Gmail",
     "copy-email": "Copiar",
     "copied-email": "Copiado"
   },
@@ -159,29 +146,11 @@
   },
   "skills-title": "Habilidades y Tecnologías",
   "nav-links": [
-    {
-      "href": "#home",
-      "label": "Inicio"
-    },
-    {
-      "href": "#projects",
-      "label": "Proyectos"
-    },
-    {
-      "href": "#works",
-      "label": "Trabajos"
-    },
-    {
-      "href": "#skills",
-      "label": "Habilidades"
-    },
-    {
-      "href": "#contact",
-      "label": "Contacto"
-    },
-    {
-      "href": "/shop",
-      "label": "Tienda"
-    }
+    { "href": "#home", "label": "Inicio" },
+    { "href": "#projects", "label": "Proyectos" },
+    { "href": "#works", "label": "Trabajos" },
+    { "href": "#skills", "label": "Habilidades" },
+    { "href": "#contact", "label": "Contacto" },
+    { "href": "/shop", "label": "Tienda" }
   ]
 }

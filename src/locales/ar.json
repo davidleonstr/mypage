@@ -10,48 +10,23 @@
   "skills": [
     {
       "category": "تطوير الواجهة الأمامية",
-      "items": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React",
-        "TailwindCSS",
-        "TypeScript",
-        "Astro"
-      ]
+      "items": ["HTML5", "CSS3", "JavaScript", "React", "TailwindCSS", "TypeScript", "Astro"]
     },
     {
       "category": "تطوير الواجهة الخلفية",
-      "items": [
-        "Python",
-        "Node.js",
-        "PHP",
-        "Java"
-      ]
+      "items": ["Python", "Node.js", "PHP", "Java"]
     },
     {
       "category": "قواعد البيانات",
-      "items": [
-        "MongoDB",
-        "PostgreSQL",
-        "MySQL"
-      ]
+      "items": ["MongoDB", "PostgreSQL", "MySQL"]
     },
     {
       "category": "الأدوات",
-      "items": [
-        "Git",
-        "Figma",
-        "Postman",
-        "VS Code"
-      ]
+      "items": ["Git", "Figma", "Postman", "VS Code"]
     },
     {
       "category": "بيئة العمل",
-      "items": [
-        "Linux",
-        "Windows"
-      ]
+      "items": ["Linux", "Windows"]
     }
   ],
   "projects": {
@@ -78,6 +53,11 @@
         "slug": "meriyo-tours-dublin",
         "name": "Meriyo Tours Dublin",
         "description": "موقع سياحي تم تطويره كمشروع عمل حر."
+      },
+      {
+        "slug": "pretty-store-sv",
+        "name": "Pretty Store SV",
+        "description": "موقع إلكتروني لحجز المنتجات يتميز بدارة آلية للمخزون، وإدارة داخلية للمنتجات، ولوحة تحكم إدارية شاملة."
       }
     ]
   },
@@ -133,11 +113,18 @@
     "request-gmail": "Gmail",
     "request-copy": "نسخ الرسالة",
     "request-copied": "تم النسخ!",
-    "request-default-client": "أو افتح ببرنامج البريد الافتراضي لديك",
     "copy-to-label": "إلى",
     "copy-subject-label": "الموضوع",
     "email-subject": "طلب خدمة: {{service}}",
     "email-body": "مرحبًا ديفيد،\n\nأنا مهتم بخدمة \"{{service}}\":\n{{description}}\n\nإليك تفاصيل أكثر عما أحتاجه:\n\n"
+  },
+  "cta-banner": {
+    "title": "أعجبتك هذه المشاريع وتريد مشروعك الخاص؟",
+    "description": "أخبرني بفكرتك ونحولها إلى مشروع حقيقي. راسلني عبر Gmail أو اطلع على الخدمات التي أقدمها.",
+    "button": "أريد مشروعي",
+    "shop": "عرض الخدمات",
+    "email-subject": "أريد مشروعًا مثل مشاريع معرض أعمالك",
+    "email-body": "مرحبًا ديفيد،\n\nرأيت مشاريعك وأود أن يكون لدي مشروع خاص بي.\n\nإليك ما أفكر فيه:\n\n"
   },
   "not-found": {
     "code": "404",
@@ -150,7 +137,7 @@
     "title": "التواصل",
     "heading": "هل لديك مشروع في ذهنك أو أي استفسار؟",
     "description": "أنا دائمًا منفتح لمناقشة الأفكار الجديدة، والتعاون في مشاريع مفتوحة المصدر أو مشاريع خاصة، أو حتى مجرد التحدث عن تطوير البرمجيات.",
-    "send-directly": "إرسال مباشرة",
+    "send-directly": "إرسال عبر Gmail",
     "copy-email": "نسخ",
     "copied-email": "تم النسخ"
   },
@@ -159,29 +146,11 @@
   },
   "skills-title": "المهارات والتقنيات",
   "nav-links": [
-    {
-      "href": "#home",
-      "label": "الرئيسية"
-    },
-    {
-      "href": "#projects",
-      "label": "المشاريع"
-    },
-    {
-      "href": "#works",
-      "label": "أعمال"
-    },
-    {
-      "href": "#skills",
-      "label": "المهارات"
-    },
-    {
-      "href": "#contact",
-      "label": "اتصل بنا"
-    },
-    {
-      "href": "/shop",
-      "label": "المتجر"
-    }
+    { "href": "#home", "label": "الرئيسية" },
+    { "href": "#projects", "label": "المشاريع" },
+    { "href": "#works", "label": "أعمال" },
+    { "href": "#skills", "label": "المهارات" },
+    { "href": "#contact", "label": "اتصل بنا" },
+    { "href": "/shop", "label": "المتجر" }
   ]
 }

@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { buildGmailUrl } from "@/utils/gmail";
 
 export default function Contact({ title, email, heading, description }) {
   const [copied, setCopied] = useState(false);
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(email);
@@ -31,7 +32,9 @@ export default function Contact({ title, email, heading, description }) {
             {copied ? t('contact.copied-email') : t('contact.copy-email')}
           </button>
           <a
-            href={`mailto:${email}`}
+            href={buildGmailUrl({ to: email })}
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center justify-center text-sm font-medium h-10 px-4 rounded-lg border border-zinc-700 bg-[#111111] text-[#f0f0f0] hover:bg-zinc-800 transition-colors"
           >
             {t('contact.send-directly')}

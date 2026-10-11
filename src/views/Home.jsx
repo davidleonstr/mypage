@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
+import CtaBanner from '@/components/CtaBanner';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -18,6 +19,7 @@ const PROJECT_URLS = {
 
 const WORK_URLS = {
   'meriyo-tours-dublin': 'https://www.meriyotoursdublin.com/',
+  'pretty-store-sv': 'https://prettystore.site/',
 };
 
 export default function Home() {
@@ -78,6 +80,8 @@ export default function Home() {
           description={t('works.description')}
           projects={works}
         />
+        
+        <CtaBanner email={t('profile.email')} />
 
         <hr className="border-zinc-700" />
 
@@ -86,6 +90,7 @@ export default function Home() {
         <hr className="border-zinc-700" />
 
         <Contact
+          title={t('contact.title')}
           email={t('profile.email')}
           heading={t('contact.heading')}
           description={t('contact.description')}
